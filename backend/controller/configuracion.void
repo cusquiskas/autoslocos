@@ -1,0 +1,19 @@
+<?php
+
+class configuracion {
+   private $host = 'localhost';
+   private $user = 'user';
+   private $pass = 'pass';
+   private $apli = 'apli';
+   
+   public function getHost() { return $this->host; }
+   public function getUser() { return $this->user; }
+   public function getPass() { return $this->pass; }
+   public function getApli() { return $this->apli; }
+   
+   private $home = '/ruta/absoluta/';
+   
+   public function getHome() { return $this->home; }
+}
+
+?>
